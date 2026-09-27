@@ -352,7 +352,7 @@ Screenshots of the completed project can be added below.
 
 
 
-!\[Desktop View](./screenshots/desktop.png)
+!\[Desktop View](./screenshots/)
 
 
 
@@ -364,7 +364,7 @@ Screenshots of the completed project can be added below.
 
 
 
-!\[Tablet View](./screenshots/tablet.png)
+!\[Tablet View](./screenshots/Screenshot 2026-09-27 220425.png)
 
 
 
@@ -376,7 +376,7 @@ Screenshots of the completed project can be added below.
 
 
 
-!\[Mobile View](./screenshots/mobile.png)
+!\[Mobile View](./screenshots/Screenshot 2026-09-27 220509.png)
 
 
 
