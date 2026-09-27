@@ -322,7 +322,7 @@ Since this project uses only HTML, CSS, and Vanilla JavaScript, no package insta
 
 ```bash
 
-git clone <your-repository-url>
+git clone https://github.com/syedasobiya-404/Digital-resource-library.git
 
 ```
 
@@ -445,7 +445,7 @@ Potential improvements for future versions include:
 
 
 
-\*\*Syeda Sobiya\*\*
+\*\*Syeda Sobya\*\*
 
 
 
