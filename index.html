@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Resource Learning | Learning Hub </title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header  & global navigation -->
+    <header class="main-header">
+        <div class="logo">
+            <h1>Learning Hub</h1>
+        </div>
+
+        <!-- search -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="search resources, topics, guides...">
+        </div>
+
+        <!-- mobile navigation toggle -->
+        <button class="menu-toggle" id="menuToggle" aris-label="Toggle Navigation">
+            ☰
+        </button>
+    </header>
+
+    <!-- main dashboard container -->
+    <div class="dashboard-container">
+
+        <!-- sidebar -->
+        <aside class="sidebar" id="sideBar">
+            <nav class="categories-nav">
+                <h3>Categories</h3>
+                <ul>
+                    <li><button class="filter-btn" data-category="all">All Resource</button></li>
+                    <li><button class="filter-btn" data-category="coding">Web Development</button></li>
+                    <li><button class="filter-btn" data-category="business">Business & Startups</button></li>
+                    <li><button class="filter-btn" data-category="teaching">Teaching & Pedagog</button></li>
+                    <li><button class="filter-btn" data-category="lifestyle">Skincare & Wellness</button></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- main content workspace -->
+        <main class="main-content">
+            <section class="hero-banner">
+                <h2>Welcome to Your Knowledge Hub</h2>
+                <p>Explore curated learning resources designed for morden skil buiding</p>
+            </section>
+
+            <!-- Cards -->
+            <section class="resources-grid" id="resourcesGrid">
+
+                <!-- card 1 -->
+                <article class="card" data-category="coding">
+                    <div class="card-tag">Coding</div>
+                    <h3>HTML5 & CSS3 Masterclass</h3>
+                    <p>Learning semantic structuring, CSS Grid, and responsive layout designs</p>
+                    <a href="#" class="card-btn">Read Guide</a>
+                </article>
+                <!-- card 2 -->
+                <article class="card" data-category="business">
+                    <div class="card-tag">Business</div>
+                    <h3>Startups Roadmaps 101</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, delectus.</p>
+                    <a href="#" class="card-btn">Read Guide</a>
+                </article>
+                <!-- card 3 -->
+                <article class="card" data-category="teaching">
+                    <div class="card-tag">Teaching</div>
+                    <h3>modern Education Tools</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem nemo iusto voluptatem
+                        optio eveniet id atque harum ex at?</p>
+                    <a href="#" class="card-btn">Read Guide</a>
+                </article>
+
+            </section>
+        </main>
+
+    </div>
+
+    <!-- footer -->
+    <footer class="main-footer">
+        <p>&copy; Learning Hub</p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
